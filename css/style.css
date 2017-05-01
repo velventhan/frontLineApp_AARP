@@ -1,0 +1,181 @@
+body{
+	font-family: 'PT Sans Caption', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* Nav */
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 0px;
+}
+
+
+
+/* Common */
+.button{
+    background: #ef3829;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 20px;
+	margin:0px 0px 0px 0px;
+    font-size: 20px;
+    font-weight:800;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+	width:100%;
+}
+
+.button:hover{
+    text-decoration: none;
+    background: #b7170b;
+    color: #fff;
+}
+
+
+.btn-register {
+    background-color: #fc0d1b;
+	color: #fff;
+	padding:10px 20px;
+	transition: all 0.3s ease;
+	font-weight:700;
+}
+
+.btn-register:hover {   
+	background-color: #e70815;
+	color: #fff;
+}
+
+
+
+/* Header */
+.header{
+   padding: 12.5px 0px;
+   background-color:#ef3829;
+}
+.header_bar_logo{}
+.header_bar_logo img{}
+.header_bar_button{
+    text-align: right;
+}
+
+
+/* Main Section */
+.main_section{
+    text-align: center;
+    color: #333;
+    padding:0px;
+	margin:0px;
+} 
+   
+
+.main_section img {
+	padding:0px 0px 0px 0px;
+}
+
+.main_section h1 {
+    font-weight: 900;
+    font-size: 24px;
+	line-height:28px;
+	padding:30px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+.main_section h3 {
+    font-weight: 400;
+    font-size: 18px;
+	line-height:24px;
+	padding:0px 0px 0px 0px;
+    margin: 0px 0px 25px 0px;
+}
+
+.main_section p {
+    display: inline-block;
+	color:#333;
+    padding: 10px 0px;
+	font-size: 16px;
+	text-align:left;
+    margin-bottom: 5px;
+	float:left;
+}
+.main_section .register_button {
+    margin-top: 30px;
+}
+
+.download {
+	padding:40px 0px 20px 0px;
+	margin:0px;
+	clear:both;
+}
+
+.download img {
+	padding: 0px;
+	margin: 0px;
+	float:left;
+}
+
+.download p {
+	color:#333;
+    padding: 10px 0px 0px 10px !important;
+	font-size: 18px;
+    margin: 0px;
+	max-width: 100%;
+	float:left;
+	text-align: left;
+}
+
+
+ol {
+    display: block;
+    color:#333;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: bold;
+    margin: 15px 0px 10px 2px;
+	padding: 10px 20px;
+	text-align:left;
+	clear:both;
+}
+
+ol li {
+	font-weight: normal;
+	padding: 0px;
+	margin:0px;
+}
+
+
+
+@media all and (max-width:768px) {
+	
+.download p {
+	color:#333;
+    padding: 0px 0px 0px 10px !important;
+	font-size: 18px;
+	line-height: 22px;
+	width:410px;
+    margin: 0px;
+	float:left;
+	text-align: left;
+}
+    
+
+}
+
+
+@media all and (max-width:425px){
+        
+.download p {
+	color:#333;
+    padding: 0px 0px 0px 10px !important;
+	font-size: 18px;
+	line-height: 22px;
+    margin: 0px;
+	max-width: 263px;
+	float:left;
+	text-align: left;
+}
+
+}
