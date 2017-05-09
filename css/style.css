@@ -27,6 +27,7 @@ img{
     text-decoration: none;
     transition: all 0.3s ease;
 	width:100%;
+	text-align:center;
 }
 
 .button:hover{
@@ -101,81 +102,36 @@ img{
     margin-bottom: 5px;
 	float:left;
 }
-.main_section .register_button {
-    margin-top: 30px;
-}
 
 .download {
-	padding:40px 0px 20px 0px;
+	padding:0px 0px 20px 0px;
 	margin:0px;
 	clear:both;
 }
 
 .download img {
-	padding: 0px;
 	margin: 0px;
 	float:left;
 }
 
 .download p {
 	color:#333;
-    padding: 10px 0px 0px 10px !important;
-	font-size: 18px;
-    margin: 0px;
-	max-width: 100%;
-	float:left;
-	text-align: left;
-}
-
-
-ol {
-    display: block;
-    color:#333;
-	font-size: 16px;
-	line-height: 21px;
-	font-weight: bold;
-    margin: 15px 0px 10px 2px;
-	padding: 10px 20px;
-	text-align:left;
-	clear:both;
-}
-
-ol li {
-	font-weight: normal;
-	padding: 0px;
-	margin:0px;
-}
-
-
-
-@media all and (max-width:768px) {
-	
-.download p {
-	color:#333;
     padding: 0px 0px 0px 10px !important;
 	font-size: 18px;
-	line-height: 22px;
-	width:410px;
     margin: 0px;
-	float:left;
 	text-align: left;
-}
-    
-
+	width:100%;
 }
 
-
-@media all and (max-width:425px){
-        
-.download p {
-	color:#333;
-    padding: 0px 0px 0px 10px !important;
-	font-size: 18px;
-	line-height: 22px;
-    margin: 0px;
-	max-width: 263px;
-	float:left;
-	text-align: left;
+.icon-button {
+	margin-bottom: 30px;
+	margin-top:30px;
 }
 
+.img-padding {
+	padding-right:10px;
+}
+
+.register_button {
+	margin-top:30px;
 }
